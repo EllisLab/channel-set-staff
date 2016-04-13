@@ -1,0 +1,19 @@
+{
+    "channels": [
+        {
+            "channel_title": "Staff",
+            "title_field_label": "Name",
+            "status_group": "Default",
+            "field_group": "staff",
+            "cat_groups": []
+        }
+    ],
+    "status_groups": [
+        {
+            "name": "Default",
+            "statuses": []
+        }
+    ],
+    "category_groups": [],
+    "upload_destinations": []
+}
