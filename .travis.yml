@@ -15,7 +15,9 @@ script:
   - vendor/bin/jsonlint custom_fields/**/*
 
 before_deploy:
-  - rm -rf ./.*
+  - rm -rf ./.editorconfig
+  - rm -rf ./.gitignore
+  - rm -rf ./.travis.yml
   - rm -rf composer.*
   - rm -rf README.md
   - zip -r 'staff' .
