@@ -27,7 +27,6 @@ deploy:
   api_key:
     secure: j6YFmFm5wLhAXv2qJN5oF1vq8bmKadWG7uCPzqtrs3nHWirA2MBHASqssXVMiShk5EFTLsX/91TwaGf3PXyWawq0G1Et8lHG+HweuklkhR1E6B1rMcWV3IbCu8D0SHPBhcgUXbRa4c2Pfx2VyGKA4QhQvpd/PJ6OcGzQA/RaXwGiWmb85Bcrvbl3suy6zsKP5KVeDit5+esP77CllOqFCBIZu+P6zEUSUBkzEt274OU6Q4p8R8QN3OyfYHMTADfynm46QA/pKSXInAerZ3JTz2tQ7aX1JrRoJGgVyIB+aREkg7lr7pI6RDJfJgLajOc+Pu/RA9YgqeHuajrivEIpTfdCi7XpVbVvlNjqpXeiYGWvHBVWC7NoSg+7B24MdCbewNWVFv3H3da3hybJ3CGkIG/VMBBhJthftsipdCb3iULERKA4KqlNGs4edcGySJICUyws7rZaw8I1nP4F7QI6ah8wv/JI20NDGyptDlxDrKIM8qSsdKn+pKny2/PorkugR/6Ly8ODSB40w3cf8Ftlsy1zW3/WYX+U1gtLR+ngv9oOXMgIMG9pNN0hx3ybVCmYeDgF8C5jLZ3gX2zmkHLeuSnIlDx7m3eV9D07BvtZfSwjFQyAozZ3GpW4IcHmCqUwhE9ufRB0LE8mvhznp7eb5Q6IKhDVGle5PJ1AuH0Bba8=
   file: staff.zip
-  skip_cleanup: true
   on:
     php: 7.0
     tags: true
