@@ -18,8 +18,9 @@ before_deploy:
   - rm -rf ./.editorconfig
   - rm -rf ./.gitignore
   - rm -rf ./.travis.yml
-  - rm -rf composer.*
-  - rm -rf README.md
+  - rm -rf ./vendor/
+  - rm -rf ./composer.*
+  - rm -rf ./README.md
   - zip -r 'staff' .
 
 deploy:
