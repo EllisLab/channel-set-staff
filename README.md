@@ -2,6 +2,37 @@
 
 Quickly create a Staff Channel in your ExpressionEngine install with this Channel Set.
 
+The Staff Channel Set comes with custom fields to get you up and running fast. Here’s what’s inside:
+
+### Custom Fields
+
+* `{staff_biography}`: a Textarea for the staff member’s bio
+* `{staff_email_address}`: an Email Address field for their email address
+* `{staff_phone_number}`: a Text field for their phone number
+* `{staff_position}`: a Text field for their position / job title
+
+### Sample Tags
+
+```
+{exp:channel:entries channel='staff' order='title' sort='asc'}
+	{if count == 1}
+		<h1>Staff Members</h1>
+		<ul>
+	{/if}
+
+			<li>
+				<h2>{title}, {staff_position}</h2>
+				<p>Email: {staff_email_address}<br>Phone: {staff_phone_number}</p>
+
+				{staff_biography}
+			</li>
+
+	{if count == total_results}
+		</ul>
+	{/if}
+{/exp:channel:entries}
+```
+
 ## License
 
 Copyright (C) 2004 - 2016 EllisLab, Inc.
